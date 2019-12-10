@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Tahoma';
+}
+.head{
+	height: 100vh;
+	width: 100%;
+	background: url(img/1.png);
+	background-size: cover;
+}
+.logo{
+	font-size: 25pt;
+	color: white;
+	font-style: bold;
+	padding-top:50px;
+	margin-left: 300px;
+}
+.Menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-between;
+	width: 35%;
+	margin-left: 55%;
+	margin-top: -2%;
+}
+.text{
+	color: white;
+	font-size: 12pt;
+}
+.text:hover{
+	color: black;
+}
+.BigText{
+	font-size: 45pt;
+	text-align: center;
+	color: white;
+	margin-top: 12%;
+}
+.BigText2{
+	font-size: 17pt;
+	text-align: center;
+	color: white;
+	margin-top: 2%;
+}
+.BUTTON{
+	height: 50px;
+	width: 200px;
+	border: 2px solid white;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 2%;
+	margin-left: 43%;
+	color: white;
+	font-style: bold;
+}
+.BUTTON:hover{
+	color: black;
+}
